@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
 
   return (
-    <Container fluid>
+    <Container fluid className="home-container">
     <Row className="banner-1">
         <Col className="banner-1 title">
           <h5 className="banner-1">SUMMER 2024</h5>
@@ -57,7 +57,6 @@ const Home = () => {
         <h6 className="best-sellers">get 'em while you can</h6>
       </Row>
       <Row className="home-products-row">
-        //future products
       </Row>
     </Container>
   );
